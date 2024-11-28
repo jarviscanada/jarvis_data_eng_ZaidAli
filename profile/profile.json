@@ -1,137 +1,114 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
-    },
-    {
       "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Bachelor of Computer Science",
+      "department": "Computer Engineering",
+      "duration": "2017-2021",
+      "school_name": "Comsats University"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli",
   "highlighted_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
-      "name": "Web app for resturant"
+      "description": "Dictionaryish is your spot for thought. Its where the cool kids gather to watch the world's greatest minds chime in about every concept under the sun. Developed the entire backend in NODE JS, Graphql using AWS. Develop frontend in React Js.",
+      "git_url": "",
+      "name": "Web app DICTIONARYISH"
     },
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Web app to manage big organizations, there sub-companies, and their employees. Implemented REST apis micro-services for handling all modules separately. Designed employees database structure to calculate their payrolls and managing their time off. ? Developed complete backend of app in Node Js.",
       "git_url": null,
-      "name": "Machine Learning"
+      "name": "HR MANAGEMENT SYSTEM"
+    },
+    {
+      "description": "It is a global citizen mobile app just like Facebook and Instagram. Developed the backend of the app in Node Js(REST apis) for android and iOS. Successfully integrated third-party APIs for added functionality and enhanced user experience.",
+      "git_url": null,
+      "name": "VIRTU MOBILE APP"
+    },
+    {
+      "description": "Web application for buying and selling cars where users simply upload pictures, and the app provides the vehicle features. Detected cars plate and used deep Learning based Text Recognition (OCR) using Tesseract and OpenCV",
+      "git_url": null,
+      "name": "VEHICLE FEATURE AND DETECTION AND RATING SYSTEM"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": "/linux_sql",
+      "description": "This project is a server monitoring tool designed to collect and store hardware specifications and usage data for Linux-based systems. It provides insights into system performance over time by storing data in a PostgreSQL database.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
+      "description": "Utilized Sql queries to retrieve meaningful data from tables.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/sql",
+      "name": "RDBMS and SQL"
     }
   ],
   "name": "Zaid Ali",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "IBM Data Analyst Professional Certificate"
       ],
       "title": "Certificates"
     },
     {
       "bullets": [
-        "Winner"
+        "Microsoft Azure AI fundamentals certificate"
       ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
-      ],
-      "title": "Activities/Hobbies"
+      "title": "Certificates"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
+      "description": "Participated in an intensive training program covering Linux, SQL, Git, Spring Boot, REST APIs, and Cloud Computing. Designed and developed scalable back-end applications using Java, Spring Boot, and RESTful APIs to handle high-throughput transactions. Leveraged SQL and NoSQL (MongoDB) databases to optimize data storage, retrieval, and analytics processes, ensuring system efficiency and reliability. Implemented CI/CD pipelines using tools like GitLab CI/CD and deployed solutions on AWS, utilizing services like EC2, RDS, and S3. Enhanced data processing workflows with Python and Spark, working on large-scale datasets for analytical insights. Collaborated with cross-functional teams to create end-to-end microservices architectures for distributed systems. Applied Agile/Scrum methodologies to deliver incremental improvements and ensure alignment with client requirements. Actively contributed to system design discussions and produced technical documentation for knowledge sharing",
+      "duration": "Nov 2024-present",
       "title": "Software Developer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Bluewave labs",
+      "description": "During my time at Bluewave Labs as a Technical Lead (Part-Time Volunteer), I led a team of eight developers, mentoring them in modern technologies like React, Node.js, and AWS to build scalable systems. I designed robust back-end architectures using PostgreSQL and developed RESTful APIs to handle data efficiently. Collaborating closely with the design team, I implemented responsive web applications using Figma and React.js. I also deployed applications on AWS services like EC2, S3, and RDS, ensuring scalability and reliability. Additionally, I reviewed GitHub pull requests to maintain code quality and adherence to best practices.",
+      "duration": "Jan 2024-July 2024",
+      "title": "Full stack developer"
+    },
+    {
+      "company": "Hashlogics",
+      "description": "Delivered complete back-end and front-end solutions by leading cross-functional teams, achieving high client satisfaction. Implemented RESTful APIs to ensure seamless communication between front-end and back-end components. Integrated .NET applications with SQL Server and MongoDB to optimize data handling. Designed and implemented an e-commerce website using Django and MySQL, resulting in a 30% increase in online sales. Executed unit and integration tests with Mocha and Jest to ensure code reliability. Optimized CI/CD pipelines using GitLab for efficient deployments.",
+      "duration": "Jan 2022-Nov 2023",
+      "title": "Full stack developer"
+    },
+    {
+      "company": "Evolve Innovative solution",
+      "description": "Developed back-end systems for web and mobile applications using Python, Node.js, and RESTful APIs. Implemented Web APIs with ASP.NET Core to facilitate communication between application components. Managed scalable databases using MySQL, PostgreSQL, and Microsoft SQL Server. Demonstrated proficiency in Scrum and Kanban agile methodologies, enhancing team collaboration. Utilized Git and GitHub for version control and collaborative development.",
+      "duration": "Jan 2021-Jan 2022",
+      "title": "Software developer"
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Django/Flask frameworks",
+      "Docker/Kubernetes for containerization",
+      "RESTful APIs/GraphQL",
+      "React.js/Angular for front-end development",
+      "Data wrangling and visualization (Pandas, Tableau)"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Azure cloud services",
+      "ASP.NET Core",
+      "NoSQL databases (Redis, Cassandra)",
+      "Webpack/Gatsby",
+      "Jest/Mocha for testing"
     ],
     "proficient": [
-      "Java",
-      "Linux/Bash",
-      "RDBMS/SQL",
-      "Agile/Scrum",
-      "Git"
+      "Python",
+      "JavaScript/Node.js",
+      "RDBMS/SQL (PostgreSQL, MySQL)",
+      "MongoDB",
+      "AWS (EC2, S3, RDS, Lambda, CodePipeline)",
+      "Linux/Bash scripting",
+      "Git/GitLab CI/CD",
+      "Agile/Scrum methodologies"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "With a background in Computer Science and extensive experience in full-stack development, I specialize in back-end technologies like JavaScript, Node.js, Python, SQL, and MongoDB. I have successfully deployed scalable applications on AWS, implemented automation through CI/CD pipelines, and designed robust systems to meet complex requirements. What excites me most about the software industry is its constant innovation and the ability to solve real-world challenges using creative approaches. I am passionate about using advanced technologies to deliver impactful solutions while continually learning and refining my skills."
 }
