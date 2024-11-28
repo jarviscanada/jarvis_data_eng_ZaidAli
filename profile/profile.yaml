@@ -1,0 +1,126 @@
+# Preferred name (Characters only)
+name: "Zaid Ali"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_ZaidAli
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: With a background in Computer Science and extensive experience in full-stack development, I specialize in back-end technologies like JavaScript, Node.js, Python, SQL, and MongoDB. I have successfully deployed scalable applications on AWS, implemented automation through CI/CD pipelines, and designed robust systems to meet complex requirements. What excites me most about the software industry is its constant innovation and the ability to solve real-world challenges using creative approaches. I am passionate about using advanced technologies to deliver impactful solutions while continually learning and refining my skills.
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Python
+    - JavaScript/Node.js
+    - RDBMS/SQL (PostgreSQL, MySQL)
+    - MongoDB
+    - AWS (EC2, S3, RDS, Lambda, CodePipeline)
+    - Linux/Bash scripting
+    - Git/GitLab CI/CD
+    - Agile/Scrum methodologies
+  # At least 5 skills
+  competent:
+    - Django/Flask frameworks
+    - Docker/Kubernetes for containerization
+    - RESTful APIs/GraphQL
+    - React.js/Angular for front-end development
+    - Data wrangling and visualization (Pandas, Tableau)
+  # At least 5 skills
+  familiar:
+    - Azure cloud services
+    - ASP.NET Core
+    - NoSQL databases (Redis, Cassandra)
+    - Webpack/Gatsby
+    - Jest/Mocha for testing
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: This project is a server monitoring tool designed to collect and store hardware specifications and usage data for Linux-based systems. It provides insights into system performance over time by storing data in a PostgreSQL database.
+  - name: "RDBMS and SQL"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/sql"
+    description: Utilized Sql queries to retrieve meaningful data from tables.
+#    description:
+#      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+#      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+#      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+#  - name: "Springboot App"
+#    git_url: "/springboot"
+#    description: ""
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+#  - name: "Spark"
+#    git_url: "/spark"
+#    description: ""
+#  - name: "Cloud/DevOps"
+#    git_url: "/cloud_devops"
+#    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Web app DICTIONARYISH"
+    #URL is optional
+    git_url: ""
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Dictionaryish is your spot for thought. Its where the cool kids gather to watch the world's greatest minds chime in about every concept under the sun. Developed the entire backend in NODE JS, Graphql using AWS. Develop frontend in React Js.
+  - name: "HR MANAGEMENT SYSTEM"
+    git_url:
+    description: Web app to manage big organizations, there sub-companies, and their employees. Implemented REST apis micro-services for handling all modules separately. Designed employees database structure to calculate their payrolls and managing their time off. ? Developed complete backend of app in Node Js.
+  - name: "VIRTU MOBILE APP"
+    git_url:
+    description: It is a global citizen mobile app just like Facebook and Instagram. Developed the backend of the app in Node Js(REST apis) for android and iOS. Successfully integrated third-party APIs for added functionality and enhanced user experience.
+  - name: "VEHICLE FEATURE AND DETECTION AND RATING SYSTEM"
+    git_url:
+    description: Web application for buying and selling cars where users simply upload pictures, and the app provides the vehicle features. Detected cars plate and used deep Learning based Text Recognition (OCR) using Tesseract and OpenCV
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "Nov 2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Participated in an intensive training program covering Linux, SQL, Git, Spring Boot, REST APIs, and Cloud Computing. Designed and developed scalable back-end applications using Java, Spring Boot, and RESTful APIs to handle high-throughput transactions. Leveraged SQL and NoSQL (MongoDB) databases to optimize data storage, retrieval, and analytics processes, ensuring system efficiency and reliability. Implemented CI/CD pipelines using tools like GitLab CI/CD and deployed solutions on AWS, utilizing services like EC2, RDS, and S3. Enhanced data processing workflows with Python and Spark, working on large-scale datasets for analytical insights. Collaborated with cross-functional teams to create end-to-end microservices architectures for distributed systems. Applied Agile/Scrum methodologies to deliver incremental improvements and ensure alignment with client requirements. Actively contributed to system design discussions and produced technical documentation for knowledge sharing"
+  - title: "Full stack developer"
+    company: "Bluewave labs"
+    duration: "Jan 2024-July 2024"
+    description: "During my time at Bluewave Labs as a Technical Lead (Part-Time Volunteer), I led a team of eight developers, mentoring them in modern technologies like React, Node.js, and AWS to build scalable systems. I designed robust back-end architectures using PostgreSQL and developed RESTful APIs to handle data efficiently. Collaborating closely with the design team, I implemented responsive web applications using Figma and React.js. I also deployed applications on AWS services like EC2, S3, and RDS, ensuring scalability and reliability. Additionally, I reviewed GitHub pull requests to maintain code quality and adherence to best practices."
+  - title: "Full stack developer"
+    company: "Hashlogics"
+    duration: "Jan 2022-Nov 2023"
+    description: "Delivered complete back-end and front-end solutions by leading cross-functional teams, achieving high client satisfaction. Implemented RESTful APIs to ensure seamless communication between front-end and back-end components. Integrated .NET applications with SQL Server and MongoDB to optimize data handling. Designed and implemented an e-commerce website using Django and MySQL, resulting in a 30% increase in online sales. Executed unit and integration tests with Mocha and Jest to ensure code reliability. Optimized CI/CD pipelines using GitLab for efficient deployments."
+  - title: "Software developer"
+    company: "Evolve Innovative solution"
+    duration: "Jan 2021-Jan 2022"
+    description: "Developed back-end systems for web and mobile applications using Python, Node.js, and RESTful APIs. Implemented Web APIs with ASP.NET Core to facilitate communication between application components. Managed scalable databases using MySQL, PostgreSQL, and Microsoft SQL Server. Demonstrated proficiency in Scrum and Kanban agile methodologies, enhancing team collaboration. Utilized Git and GitHub for version control and collaborative development."
+#List of edcuation
+education: 
+  - school_name: "Comsats University"
+    duration: "2017-2021"
+    degree: "Bachelor of Computer Science"
+    department: "Computer Engineering"
+    # optional
+    awards_achievements:
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "IBM Data Analyst Professional Certificate"
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Microsoft Azure AI fundamentals certificate"
