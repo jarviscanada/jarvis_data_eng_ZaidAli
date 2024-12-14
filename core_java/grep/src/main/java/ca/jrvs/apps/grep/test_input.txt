@@ -1,0 +1,5 @@
+This is a sample line containing the keyword Java.
+Another line without the keyword.
+Yet zaid line with Java programming language.
+Java is versatile and widely used.
+End of file with the keyword again.
