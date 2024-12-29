@@ -44,6 +44,9 @@ jarvis_projects:
   - name: "RDBMS and SQL"
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/sql"
     description: Utilized Sql queries to retrieve meaningful data from tables.
+  - name: "Java Grep app"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/core_java/grep"
+    description: This Java-based grep application efficiently searches text files for specific patterns using Core Java features like file handling, regex, and streams. Packaged with Maven and dockerized for seamless deployment, it incorporates Lambda and IDE tools in its development
 #    description:
 #      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
 #      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
