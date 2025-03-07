@@ -5,30 +5,30 @@
       "degree": "Bachelor of Computer Science",
       "department": "Computer Engineering",
       "duration": "2017-2021",
-      "school_name": "Comsats University"
+      "school_name": "COMSATS University"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli",
   "highlighted_projects": [
     {
-      "description": "Dictionaryish is your spot for thought. Its where the cool kids gather to watch the world's greatest minds chime in about every concept under the sun. Developed the entire backend in NODE JS, Graphql using AWS. Develop frontend in React Js.",
+      "description": "Dictionaryish is your spot for thought. It's where the cool kids gather to watch the world's greatest minds chime in about every concept under the sun. Developed the entire backend in NODE JS, GraphQL using AWS. Developed the frontend in React.js.",
       "git_url": "",
-      "name": "Web app DICTIONARYISH"
+      "name": "Web app Dictionaryish"
     },
     {
-      "description": "Web app to manage big organizations, there sub-companies, and their employees. Implemented REST apis micro-services for handling all modules separately. Designed employees database structure to calculate their payrolls and managing their time off. ? Developed complete backend of app in Node Js.",
-      "git_url": null,
-      "name": "HR MANAGEMENT SYSTEM"
+      "description": "Web app to manage big organizations, their sub-companies, and their employees. Implemented REST APIs and microservices for handling all modules separately. Designed employee database structure to calculate their payrolls and manage their time off. Developed the complete backend of the app in Node.js.",
+      "git_url": "",
+      "name": "HR management system"
     },
     {
-      "description": "It is a global citizen mobile app just like Facebook and Instagram. Developed the backend of the app in Node Js(REST apis) for android and iOS. Successfully integrated third-party APIs for added functionality and enhanced user experience.",
-      "git_url": null,
-      "name": "VIRTU MOBILE APP"
+      "description": "It is a global citizen mobile app just like Facebook and Instagram. Developed the backend of the app in Node.js (REST APIs) for Android and iOS. Successfully integrated third-party APIs for added functionality and enhanced user experience.",
+      "git_url": "",
+      "name": "Virtu mobile app"
     },
     {
-      "description": "Web application for buying and selling cars where users simply upload pictures, and the app provides the vehicle features. Detected cars plate and used deep Learning based Text Recognition (OCR) using Tesseract and OpenCV",
-      "git_url": null,
-      "name": "VEHICLE FEATURE AND DETECTION AND RATING SYSTEM"
+      "description": "ML/Web application for buying and selling cars where users simply upload pictures, and the app provides the vehicle features. Detected car plates and used deep learning-based text recognition (OCR) with Tesseract and OpenCV.",
+      "git_url": "",
+      "name": "Vehicle feature detection and rating system- Machine Learning project"
     }
   ],
   "jarvis_projects": [
@@ -38,14 +38,19 @@
       "name": "Cluster Monitor"
     },
     {
-      "description": "Utilized Sql queries to retrieve meaningful data from tables.",
+      "description": "Utilized SQL queries to retrieve meaningful data from tables.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/sql",
       "name": "RDBMS and SQL"
     },
     {
-      "description": "This Java-based grep application efficiently searches text files for specific patterns using Core Java features like file handling, regex, and streams. Packaged with Maven and dockerized for seamless deployment, it incorporates Lambda and IDE tools in its development",
+      "description": "This Java-based grep application efficiently searches text files for specific patterns using Core Java features like file handling, regex, and streams. Packaged with Maven and dockerized for seamless deployment, it incorporates Lambda and IDE tools in its development.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/core_java/grep",
-      "name": "Java Grep app"
+      "name": "Grep app in Java"
+    },
+    {
+      "description": "The Stock Quote Application is a Java-based console program designed to fetch and store real-time stock prices, track stock positions, and analyze financial performance. The application interacts with a **MySQL database** using **JDBC**, follows an **MVC architecture**, and applies **DAO (Data Access Object) and Repository design patterns** for structured data management. The program fetches stock quotes from an external API and allows users to store, retrieve, and analyze stock data efficiently.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ZaidAli/tree/develop/core_java/stockquote",
+      "name": "Stock quote app in Java"
     }
   ],
   "name": "Zaid Ali",
@@ -58,7 +63,7 @@
     },
     {
       "bullets": [
-        "Microsoft Azure AI fundamentals certificate"
+        "Microsoft Azure AI Fundamentals Certificate"
       ],
       "title": "Certificates"
     }
@@ -66,12 +71,12 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Participated in an intensive training program covering Linux, SQL, Git, Spring Boot, REST APIs, and Cloud Computing. Designed and developed scalable back-end applications using Java, Spring Boot, and RESTful APIs to handle high-throughput transactions. Leveraged SQL and NoSQL (MongoDB) databases to optimize data storage, retrieval, and analytics processes, ensuring system efficiency and reliability. Implemented CI/CD pipelines using tools like GitLab CI/CD and deployed solutions on AWS, utilizing services like EC2, RDS, and S3. Enhanced data processing workflows with Python and Spark, working on large-scale datasets for analytical insights. Collaborated with cross-functional teams to create end-to-end microservices architectures for distributed systems. Applied Agile/Scrum methodologies to deliver incremental improvements and ensure alignment with client requirements. Actively contributed to system design discussions and produced technical documentation for knowledge sharing",
+      "description": "Participated in an intensive training program covering Linux, SQL, Git, Spring Boot, REST APIs, and Cloud Computing. Designed and developed scalable back-end applications using Java, Spring Boot, and RESTful APIs to handle high-throughput transactions. Leveraged SQL and NoSQL (MongoDB) databases to optimize data storage, retrieval, and analytics processes, ensuring system efficiency and reliability. Implemented CI/CD pipelines using tools like GitLab CI/CD and deployed solutions on AWS, utilizing services like EC2, RDS, and S3. Enhanced data processing workflows with Python and Spark, working on large-scale datasets for analytical insights. Collaborated with cross-functional teams to create end-to-end microservices architectures for distributed systems. Applied Agile/Scrum methodologies to deliver incremental improvements and ensure alignment with client requirements. Actively contributed to system design discussions and produced technical documentation for knowledge sharing.",
       "duration": "Nov 2024-present",
       "title": "Software Developer"
     },
     {
-      "company": "Bluewave labs",
+      "company": "Bluewave Labs",
       "description": "During my time at Bluewave Labs as a Technical Lead (Part-Time Volunteer), I led a team of eight developers, mentoring them in modern technologies like React, Node.js, and AWS to build scalable systems. I designed robust back-end architectures using PostgreSQL and developed RESTful APIs to handle data efficiently. Collaborating closely with the design team, I implemented responsive web applications using Figma and React.js. I also deployed applications on AWS services like EC2, S3, and RDS, ensuring scalability and reliability. Additionally, I reviewed GitHub pull requests to maintain code quality and adherence to best practices.",
       "duration": "Jan 2024-July 2024",
       "title": "Full stack developer"
@@ -83,10 +88,10 @@
       "title": "Full stack developer"
     },
     {
-      "company": "Evolve Innovative solution",
+      "company": "Evolve Innovative Solution",
       "description": "Developed back-end systems for web and mobile applications using Python, Node.js, and RESTful APIs. Implemented Web APIs with ASP.NET Core to facilitate communication between application components. Managed scalable databases using MySQL, PostgreSQL, and Microsoft SQL Server. Demonstrated proficiency in Scrum and Kanban agile methodologies, enhancing team collaboration. Utilized Git and GitHub for version control and collaborative development.",
       "duration": "Jan 2021-Jan 2022",
-      "title": "Software developer"
+      "title": "Software Developer"
     }
   ],
   "skills": {
@@ -111,7 +116,7 @@
       "MongoDB",
       "AWS (EC2, S3, RDS, Lambda, CodePipeline)",
       "Linux/Bash scripting",
-      "Git/GitLab CI/CD",
+      "Git and GitLab CI/CD",
       "Agile/Scrum methodologies"
     ]
   },

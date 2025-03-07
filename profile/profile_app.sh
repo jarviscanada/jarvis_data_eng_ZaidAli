@@ -26,7 +26,7 @@ function validate_yaml() {
   echo "---- Validating profile.yaml file ----"
   docker pull jrvs/yamale
   docker pull mikefarah/yq:3.3.4
-  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s /schema/profile_schema.yaml profile.yaml
+  docker run --rm -v "${PWD}":/workdir jrvs/yamale yamale -s ./schema/profile_schema.yaml profile.yaml
   check_status $?
 }
 
@@ -47,22 +47,22 @@ function yaml_to_json() {
 function render_md() {
   echo "---- Rendering profile.md ----"
   docker pull jrvs/render_profile_md
-  docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md  profile.yaml profile.md
+  winpty docker run --rm -it -v "${PWD}":/workdir jrvs/render_profile_md profile.yaml profile.md
   check_status $?
 }
 
 function render_pdf() {
   echo "---- Rendering profile.pdf ----"
   template_profile=profile.md
-  output_profile_pdf=${profile_prefix}.pdf
+  output_profile_pdf=jarvis_profile_Zaid_Ali.pdf
 
   top_bot_margin=1.75cm
   left_right_margin=1.5cm
   font_size=8
 
-  docker run --rm --volume "$(pwd):/data" --user $(id -u):$(id -g) pandoc/latex:2.9.2.1 \
-    ${template_profile} -f markdown -t pdf -s \
-    --pdf-engine=xelatex -V pagestyle=empty -V fontsize=${font_size}pt -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_profile_pdf}
+  docker run --rm --volume "$(pwd):/data" pandoc/latex:2.9.2.1 \
+  ${template_profile} -f markdown -t pdf -s \
+  --pdf-engine=xelatex -V pagestyle=empty -V fontsize=${font_size}pt -V geometry:"top=${top_bot_margin}, bottom=${top_bot_margin}, left=${left_right_margin}, right=${left_right_margin}" -o ${output_profile_pdf}
   check_status $?
 }
 
