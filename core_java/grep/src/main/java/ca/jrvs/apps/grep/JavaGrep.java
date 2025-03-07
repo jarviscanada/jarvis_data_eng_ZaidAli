@@ -1,12 +1,14 @@
 package ca.jrvs.apps.grep;
+
 import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
-import java.io.IOException;
-
 public interface JavaGrep {
+
     /**
      * top level flow
+     *
      * @throws java.io.IOException
      */
     void process() throws IOException;
@@ -40,3 +42,5 @@ public interface JavaGrep {
 
     void setOutFile(String outFile);
 }
+
+//java ca.jrvs.apps.grep.JavaGrepImp "Java" "/home/rocky/dev/jarvis_data_eng_ZaidAli/core_java/grep/src/main/java/ca/jrvs/apps/grep" "/home/rocky/dev/jarvis_data_eng_ZaidAli/core_java/grep/src/main/java/ca/jrvs/apps/grep/output.txt"
